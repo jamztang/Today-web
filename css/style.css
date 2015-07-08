@@ -1,0 +1,120 @@
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    -webkit-text-size-adjust:none;
+}
+body {
+	background: #000;
+	text-align: center;
+}
+h1 {
+	/* TODAY: */
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 69px;
+	color: #CCCCCC;
+	line-height: 83px;
+	padding-top: 66px;
+}
+h2 {
+	/* A TIMER WITH TRACKIN: */
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	color: #999999;
+	letter-spacing: 0.89px;
+	line-height: 39px;
+	padding-top: 31px;
+}
+h3 {
+	/* A TIMER WITH TRACKIN: */
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	color: #999999;
+	letter-spacing: 0.89px;
+	line-height: 39px;
+	padding-bottom: 25px;
+}
+a {
+	color:#00A7FF;
+	text-decoration: none;
+}
+a:hover {
+	color:#0074B3;
+}
+.t {
+	color: #DDDDDD;
+}
+.o {
+	color: #FF5C4C;
+}
+.d {
+	color: #59B2DB;
+}
+.a {
+	color: #3BCF00;
+}
+.y {
+	color: #DDDDDD;
+}
+.apple-logo {
+	font-size: 75%;
+}
+#top {
+	background-color: #000;
+	padding-bottom: 42px;
+}
+#mid {
+	background-color: #19171A;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+#iphone {
+	height: 737px;
+	width: 366px;
+	margin: 20px 16px;
+	background-image: url("../resources/phone.png");
+	background-size: cover;
+	display: inline-block;
+}
+#watch {
+	height: 374px;
+	width: 207px;
+	margin: 20px 16px 80px 16px;
+	background-image: url("../resources/watch.png");
+	background-size: cover;
+	display: inline-block;
+}
+#iphone-screen {
+	height: 568px;
+	width: 320px;
+	margin-left: 23px;
+	margin-top: 84px;
+	background-image: url("../resources/phone-dashboard.png");
+	background-size: contain;
+	background-origin: border-box;
+}
+#watch-screen {
+	height: 170px;
+	width: 136px;
+	margin-left: 29px;
+	margin-top: 99px;
+	background-image: url("../resources/watch-timing.png");
+	background-size: contain;
+	background-origin: border-box;
+}
+#foot {
+	/* Made by James Tang ©: */
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: #999;
+	font-size: 16px;
+	letter-spacing: 0.6px;
+	line-height: 22px;
+}
+#foot a {
+	font-size: 18px;
+}

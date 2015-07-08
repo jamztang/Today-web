@@ -1,0 +1,68 @@
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+/* iPhone only */
+h1 {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 44px;
+}
+h2 {
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.18px;
+	line-height: 36px;
+	padding-top: 12px;
+}
+h3 {
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.18px;
+	line-height: 24px;
+	padding-bottom: 24px;
+}
+.apple-logo {
+	font-size: 15px;
+}
+#mid {
+	position: absolute;
+	left: 0px;
+	top: 290px;
+	height: 620px;
+}
+#iphone {
+	position: absolute;
+	height: 505px;
+	width: 251px;
+	left: 20px;
+	top: 20px;
+	margin: 0px;
+}
+#iphone-screen {
+	height: 389px;
+	width: 219px;
+	margin-left: 16px;
+	margin-top: 58px;
+}
+#watch {
+	position: absolute;
+	height: 285px;
+	width: 157px;
+	top: 316px;
+	right: 20px;
+	margin: 0px;
+}
+#watch-screen {
+	height: 129px;
+	width: 103px;
+	margin-left: 23px;
+	margin-top: 78px;
+}
+#foot {
+	position: absolute;
+	top: 910px;
+	height: 88px;
+	font-weight: 300;
+	text-align: center;
+	width: 100%;
+	padding-top: 24px;
+}
+}
