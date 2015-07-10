@@ -59,10 +59,13 @@ h3 {
 #foot {
 	position: absolute;
 	top: 910px;
-	height: 88px;
 	font-weight: 300;
+	font-size: 13px;
 	text-align: center;
 	width: 100%;
 	padding-top: 24px;
+}
+#foot a {
+	font-size: 14px;
 }
 }
