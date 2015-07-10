@@ -1,4 +1,4 @@
-html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6, figure {
     margin:0;
     padding:0;
 	-webkit-font-smoothing: antialiased;
@@ -90,9 +90,11 @@ a:hover {
 	width: 320px;
 	margin-left: 23px;
 	margin-top: 84px;
-	background-image: url("../resources/phone-dashboard.png");
 	background-size: contain;
 	background-origin: border-box;
+}
+#iphone-screen img {
+	width: 100%;
 }
 #watch-screen {
 	height: 170px;
