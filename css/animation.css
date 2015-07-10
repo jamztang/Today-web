@@ -14,14 +14,14 @@
     animation: fadeIn 1s 1.2s both;
 }
 #tagline {
-    -webkit-animation: fadeInUp 0.8s 2.2s both;
-    -moz-animation: fadeInUp 0.8s 2.2s both;
-    animation: fadeInUp 0.8s 2.2s both;
+    -webkit-animation: fadeIn 0.8s 1.8s both;
+    -moz-animation: fadeIn 0.8s 1.8s both;
+    animation: fadeIn 0.8s 1.8s both;
 }
 #download {
-    -webkit-animation: flipInX 1.4s 2.0s both;
-    -moz-animation: flipInX 1.4s 2.0s both;
-    animation: flipInX 1.4s 2.0s both;
+    -webkit-animation: flipInX 1s 2.2s both;
+    -moz-animation: flipInX 1s 2.2s both;
+    animation: flipInX 1s 2.2s both;
 }
 #iphone {
     -webkit-animation: fadeInLeft 1s 0.9s both;
