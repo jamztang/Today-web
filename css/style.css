@@ -1,6 +1,7 @@
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
     margin:0;
     padding:0;
+	-webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust:none;
 }
 body {
@@ -19,9 +20,9 @@ h1 {
 h2 {
 	/* A TIMER WITH TRACKIN: */
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 24px;
-	color: #999999;
+	color: #666666;
 	letter-spacing: 0.89px;
 	line-height: 39px;
 	padding-top: 31px;
@@ -29,9 +30,9 @@ h2 {
 h3 {
 	/* A TIMER WITH TRACKIN: */
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 20px;
-	color: #999999;
+	color: #666666;
 	letter-spacing: 0.89px;
 	line-height: 39px;
 	padding-bottom: 25px;
@@ -108,7 +109,7 @@ a:hover {
 #foot {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	color: #999;
 	font-size: 16px;
 	letter-spacing: 0.6px;
