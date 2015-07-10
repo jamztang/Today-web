@@ -1,0 +1,21 @@
+#title {
+    -webkit-animation: fadeInDown .8s .1s both;
+}
+#subtitle1 {
+    -webkit-animation: fadeIn 1s 1s both;
+}
+#subtitle2 {
+    -webkit-animation: fadeIn 1s 1.7s both;
+}
+#tagline {
+    -webkit-animation: fadeIn 1s 2.5s both;
+}
+#download {
+    -webkit-animation: flipInX 1.2s 2.8s both;
+}
+#iphone {
+    -webkit-animation: fadeInLeft 1s 3.3s both;
+}
+#watch {
+    -webkit-animation:fadeInRight 1s 3.6s both;
+}
