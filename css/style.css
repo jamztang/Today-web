@@ -118,3 +118,10 @@ a:hover {
 #foot a {
 	font-size: 18px;
 }
+#mixpanel {
+	right: 20px;
+	bottom: 26px;
+	position: relative;
+	float: right;
+	display: none;
+}
