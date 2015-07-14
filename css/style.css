@@ -3,6 +3,9 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6, figure {
     padding:0;
 	-webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust:none;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #666666;
 }
 body {
 	background: #000;
@@ -44,6 +47,14 @@ a {
 a:hover {
 	color:#0074B3;
 }
+p {
+	font-size: 20px;
+	letter-spacing: 0.89px;
+	line-height: 39px;
+}
+.info {
+	font-size: 12px;
+}
 .t {
 	color: #DDDDDD;
 }
@@ -63,60 +74,19 @@ a:hover {
 	background-color: #000;
 	padding-bottom: 42px;
 }
-#mid {
-	background-color: #19171A;
-	text-align: center;
-	vertical-align: top;
-	width: 100%;
-}
-#iphone {
-	height: 737px;
-	width: 366px;
-	margin: 20px 16px;
-	background-image: url("../resources/phone.png");
-	background-size: cover;
-	display: inline-block;
-}
-#watch {
-	height: 374px;
-	width: 207px;
-	margin: 20px 16px 80px 16px;
-	background-image: url("../resources/watch.png");
-	background-size: cover;
-	display: inline-block;
-}
-#iphone-screen {
-	height: 568px;
-	width: 320px;
-	margin-left: 23px;
-	margin-top: 84px;
-	background-size: contain;
-	background-origin: border-box;
-}
-#iphone-screen img {
-	width: 100%;
-}
-#watch-screen {
-	height: 170px;
-	width: 136px;
-	margin-left: 29px;
-	margin-top: 99px;
-	background-size: contain;
-	background-origin: border-box;
-}
-#foot {
+#foot p {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: #999;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0.6px;
 	line-height: 22px;
   	padding-top: 33px;
   	padding-bottom: 33px;
 }
 #foot a {
-	font-size: 18px;
+	font-size: 16px;
 }
 #mixpanel {
 	right: 20px;

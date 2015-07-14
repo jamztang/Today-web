@@ -1,0 +1,81 @@
+
+/* Common */
+
+section {
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	padding-bottom: 40px;
+}
+section header {
+	padding-bottom: 40px;
+}
+section footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: text-top;
+}
+article .hero {
+	background-color: #19171A;
+	background-position: center center;
+}
+article p {
+	text-align: left;
+}
+article .content {
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Mid */
+
+#mid {
+
+}
+#iphone {
+	height: 737px;
+	width: 366px;
+	margin: 20px 16px;
+	background-image: url("../resources/phone.png");
+	background-size: cover;
+	display: inline-block;
+}
+#watch {
+	height: 374px;
+	width: 207px;
+	margin: 20px 16px 80px 16px;
+	background-image: url("../resources/watch.png");
+	background-size: cover;
+	display: inline-block;
+}
+#iphone-screen {
+	height: 568px;
+	width: 320px;
+	margin-left: 23px;
+	margin-top: 84px;
+	background-size: contain;
+	background-origin: border-box;
+}
+#iphone-screen img {
+	width: 100%;
+}
+#watch-screen {
+	height: 170px;
+	width: 136px;
+	margin-left: 29px;
+	margin-top: 99px;
+	background-size: contain;
+	background-origin: border-box;
+}
+
+/* Press */
+
+#press .hero {
+	background-image: url("../resources/press-section.png");
+	background-size: cover;
+	height: 750px;
+	width: 100%;
+}
