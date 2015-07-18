@@ -39,7 +39,7 @@ article .content {
 	height: 737px;
 	width: 366px;
 	margin: 20px 16px;
-	background-image: url("../resources/phone.png");
+	background-image: url("../resources/phone.svg");
 	background-size: cover;
 	display: inline-block;
 }
