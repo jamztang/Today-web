@@ -22,9 +22,9 @@
 	100% { left: -400%; }
 }
 
-#iphone-screen, #watch-screen { overflow: hidden; }
-figure img { float: left; }
-figure { 
+#iphone-screen, #watch-screen , #hero { overflow: hidden; }
+figure img, figure .img, .figure .img { float: left; }
+figure, .figure { 
   position: relative;
   margin: 0;
   left: 0;
@@ -43,6 +43,15 @@ figure {
 	width: 20%; 
 }
 #watch-screen figure {
+	width: 500%;
+	-webkit-animation: slide5 20s 1s infinite;
+}
+
+#hero .figure .img {
+	width: 20%; 
+	height: 100%;
+}
+#hero .figure {
 	width: 500%;
 	-webkit-animation: slide5 20s 1s infinite;
 }

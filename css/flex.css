@@ -1,0 +1,27 @@
+.flex {
+	display: -webkit-flex;
+}
+
+.vertical {
+	-webkit-flex-direction: column;
+}
+
+.horizontal {
+	-webkit-flex-direction: row;
+}
+
+.remaining {
+	-webkit-flex: 1;
+}
+
+.page {
+	height: 100vh;
+}
+
+.fat {
+	width: 100%;
+}
+
+.tall {
+	height: 100%;
+}
