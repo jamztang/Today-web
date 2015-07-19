@@ -31,7 +31,6 @@ article .content {
 /* Top */
 #top {
 	background-color: #000;
-	padding-bottom: 42px;
 	min-height: 440px;
 }
 #download {
@@ -54,23 +53,26 @@ article .content {
 /* Features */
 
 #features {
-	height: 100vh;
+	min-height: 100vh;
 }
 #iphone {
 	height: 737px;
-	width: 366px;
-	margin: 20px 16px;
+	min-width: 366px;
+	margin: auto;
 	background-image: url("../resources/phone.svg");
 	background-size: cover;
 	display: inline-block;
+	-webkit-order:1;
 }
 #watch {
 	height: 374px;
 	width: 207px;
-	margin: 20px 16px 80px 16px;
+	min-width: 160px;
+	margin: 20px auto 80px auto;
 	background-image: url("../resources/watch.png");
 	background-size: cover;
 	display: inline-block;
+	-webkit-order:0;
 }
 #iphone-screen {
 	height: 568px;
@@ -90,6 +92,27 @@ article .content {
 	margin-top: 99px;
 	background-size: contain;
 	background-origin: border-box;
+}
+#wordings {
+	margin: 0px 40px;
+	min-width: 320px;
+	-webkit-order:2;
+}
+#wordings header {
+	/* same as h2 */
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: left;
+	color: #666666;
+	letter-spacing: 0.89px;
+	line-height: 39px;
+	padding-top: 0px;
+	padding-bottom: 16px;
+}
+#wordings section {
+	padding-top: 40px;
+	padding-bottom: 0px;
 }
 
 /* Press */
