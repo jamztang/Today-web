@@ -39,13 +39,18 @@
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/sections.css">
+		<!-- <link rel="stylesheet" href="css/sections.css"> -->
 		<link rel="stylesheet" href="css/slider.css">
-		<link rel="stylesheet" href="css/phone.css">
+		<!-- <link rel="stylesheet" href="css/phone.css"> -->
 		<link rel="stylesheet" href="css/animation.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/flex.css">
 		<script src="js/ga.js"></script>
+
+		<style>
+			@import url("css/sections.css");
+			@import url("css/phone.css");
+		</style>
 	</head>
 
 	<body>
@@ -74,30 +79,32 @@
 			<div id="banner" class="remaining shadow fat"></div>
 		</div>
 
-		<section id="features" class="flex center">
-			<div id="iphone">
-				<div id="iphone-screen" class='slider'>
-					<figure>
-						<img src="resources/phone-dashboard.jpg" alt="">
-						<img src="resources/phone-timing.jpg" alt="">
-						<img src="resources/phone-resting.jpg" alt="">
-						<img src="resources/phone-calendar.jpg" alt="">
-						<img src="resources/phone-dashboard.jpg" alt="">
-					</figure>
+		<section id="features" class="flex center wrap">
+			<div id="left" class="flex center">
+				<div id="iphone">
+					<div id="iphone-screen" class='slider'>
+						<figure>
+							<img src="resources/phone-dashboard.jpg" alt="">
+							<img src="resources/phone-timing.jpg" alt="">
+							<img src="resources/phone-resting.jpg" alt="">
+							<img src="resources/phone-calendar.jpg" alt="">
+							<img src="resources/phone-dashboard.jpg" alt="">
+						</figure>
+					</div>
+				</div>
+				<div id="watch" class="vertical-center">
+					<div id="watch-screen">
+						<figure>
+							<img src="resources/watch-dashboard.jpg" alt="">
+							<img src="resources/watch-timing.jpg" alt="">
+							<img src="resources/watch-resting.jpg" alt="">
+							<img src="resources/watch-clear-stats.jpg" alt="">
+							<img src="resources/watch-dashboard.jpg" alt="">
+						</figure>
+					</div>
 				</div>
 			</div>
-			<div id="watch" class="bottom">
-				<div id="watch-screen">
-					<figure>
-						<img src="resources/watch-dashboard.jpg" alt="">
-						<img src="resources/watch-timing.jpg" alt="">
-						<img src="resources/watch-resting.jpg" alt="">
-						<img src="resources/watch-clear-stats.jpg" alt="">
-						<img src="resources/watch-dashboard.jpg" alt="">
-					</figure>
-				</div>
-			</div>
-			<div id="wordings">
+			<div id="wordings" class="vertical-center">
 				<h1>FEATURES</h1>
 				<section>
 					<header>PLAN</header>

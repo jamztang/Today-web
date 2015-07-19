@@ -24,23 +24,20 @@ article .hero {
 	width: 100%;
 	height: 100%;
 }
-
-/* Section Mid */
-
-/*
-#mid {
-	position: absolute;
-	left: 0px;
-	top: 290px;
-	height: 580px;
+p {
+	font-size: 18px;
 }
+
+/* Feature */
+
+#left {
+	min-width: 320px;
+	width: 420px;
+}
+
 #iphone {
-	position: absolute;
 	height: 505px;
-	width: 251px;
-	left: 20px;
-	top: 20px;
-	margin: 0px;
+	min-width: 251px;
 }
 #iphone-screen {
 	height: 389px;
@@ -49,12 +46,10 @@ article .hero {
 	margin-top: 58px;
 }
 #watch {
-	position: absolute;
 	height: 285px;
 	width: 157px;
-	top: 316px;
-	right: 20px;
-	margin: 0px;
+	min-width: 130px;
+	margin-top: 200px;
 }
 #watch-screen {
 	height: 129px;
@@ -62,8 +57,9 @@ article .hero {
 	margin-left: 23px;
 	margin-top: 78px;
 }
-#mid .hero {
-	position: absolute;
+
+#wordings section {
+	padding-top: 26px;
 }
 
 /* Section Press */
@@ -93,5 +89,5 @@ article .hero {
 #foot a {
 	font-size: 14px;
 }
-
+*/
 }

@@ -55,12 +55,18 @@ article .content {
 #features {
 	min-height: 100vh;
 }
+#left {
+	min-width: 526px;
+	width: 616px;
+	margin: 40px 0px;
+}
 #iphone {
 	height: 737px;
 	min-width: 366px;
 	margin: auto;
 	background-image: url("../resources/phone.svg");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: inline-block;
 	-webkit-order:1;
 }
@@ -68,11 +74,12 @@ article .content {
 	height: 374px;
 	width: 207px;
 	min-width: 160px;
-	margin: 20px auto 80px auto;
+	margin: 300px auto 0px auto;
 	background-image: url("../resources/watch.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 	display: inline-block;
-	-webkit-order:0;
+	-webkit-order: 0;
 }
 #iphone-screen {
 	height: 568px;
@@ -94,9 +101,12 @@ article .content {
 	background-origin: border-box;
 }
 #wordings {
-	margin: 0px 40px;
+	margin: 0px 40px 30px 40px;
 	min-width: 320px;
 	-webkit-order:2;
+}
+#wordings h1 {
+	padding: 0px;
 }
 #wordings header {
 	/* same as h2 */

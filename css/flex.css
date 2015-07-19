@@ -1,3 +1,5 @@
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -19,6 +21,8 @@
 	-webkit-flex-direction: column-reversed;
 }
 
+/* Spacing */
+
 .remaining {
 	-webkit-flex: 1;
 }
@@ -35,21 +39,40 @@
 	height: 100%;
 }
 
-.center { 
-  -webkit-justify-content: center; 
-  justify-content: center; 
-}
-
 .wrap { 
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 } 
+
+/* justify-content: flex-start | flex-end | center | space-between | space-around; */
 
 .space-around { 
   -webkit-justify-content: space-around; 
   justify-content: space-around; 
 }
 
-.bottom {
+.space-between {
+  -webkit-justify-content: space-between; 
+  justify-content: space-between; 	
+}
+
+.center { 
+  -webkit-justify-content: center; 
+  justify-content: center; 
+}
+
+/* align-self: auto | flex-start | flex-end | center | baseline | stretch */
+
+.vertical-center {
+	-webkit-align-self: center;
+}
+
+.vertical-bottom {
 	-webkit-align-self: flex-end;
 }
+
+
+
+
+
+
