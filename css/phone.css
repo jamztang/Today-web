@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+@media print, screen and (max-width: 640px) {
 /* iPhone only */
 h1 {
 	font-size: 50px;
@@ -27,6 +27,7 @@ article .hero {
 
 /* Section Mid */
 
+/*
 #mid {
 	position: absolute;
 	left: 0px;
@@ -66,7 +67,7 @@ article .hero {
 }
 
 /* Section Press */
-
+/*
 #press .hero {
 	height: 60vh;
 }
@@ -79,7 +80,7 @@ article .hero {
 
 
 /* Footer */
-
+/*
 #foot p {
 	position: absolute;
 	top: 1760px;
