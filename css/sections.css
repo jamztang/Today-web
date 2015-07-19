@@ -38,7 +38,7 @@ article .content {
 	padding-bottom: 42px;
 }
 
-.banner-phone {
+#banner {
 	background-image: url("../resources/banner-phone.jpg");
 	background-size: cover;
 	background-position: center;
