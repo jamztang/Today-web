@@ -2,13 +2,13 @@
 section h1 {
 	font-size: 56px;
 	line-height: 80px;
-	padding: 0px;
+	padding: 30px 0px;
 }
 section {
 	text-align: center;
 	vertical-align: top;
 	width: 100%;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 section header {
 	font-family: 'Lato', sans-serif;
@@ -19,12 +19,12 @@ section header {
 	letter-spacing: 0.89px;
 	line-height: 39px;
 	padding-top: 0px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 section footer {
 	vertical-align: text-top;
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 article .hero {
 	background-color: #19171A;

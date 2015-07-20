@@ -1,3 +1,35 @@
+@media print, screen and (max-width: 1024px) {
+
+#left {
+	min-width: 320px;
+	width: 420px;
+}
+
+#iphone {
+	height: 505px;
+	min-width: 251px;
+}
+#iphone-screen {
+	height: 389px;
+	width: 219px;
+	margin-left: 16px;
+	margin-top: 58px;
+}
+#watch {
+	height: 285px;
+	width: 157px;
+	min-width: 130px;
+	margin-top: 200px;
+}
+#watch-screen {
+	height: 129px;
+	width: 103px;
+	margin-left: 23px;
+	margin-top: 78px;
+}
+
+}
+
 @media print, screen and (max-width: 640px) {
 /* iPhone only */
 section h1 {
@@ -33,38 +65,6 @@ p {
 }
 
 /* Feature */
-
-#left {
-	min-width: 320px;
-	width: 420px;
-}
-
-#iphone {
-	height: 505px;
-	min-width: 251px;
-}
-#iphone-screen {
-	height: 389px;
-	width: 219px;
-	margin-left: 16px;
-	margin-top: 58px;
-}
-#watch {
-	height: 285px;
-	width: 157px;
-	min-width: 130px;
-	margin-top: 200px;
-}
-#watch-screen {
-	height: 129px;
-	width: 103px;
-	margin-left: 23px;
-	margin-top: 78px;
-}
-
-#wordings section {
-	padding-top: 26px;
-}
 
 /* Section Press */
 /*
