@@ -72,7 +72,9 @@
 	-webkit-align-self: flex-end;
 }
 
-
+.stretch {
+  -webkit-align-items: stretch;
+}
 
 
 

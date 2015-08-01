@@ -52,7 +52,15 @@ p {
 	letter-spacing: 0.89px;
 	line-height: 39px;
 }
-
+.banner-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-overlay p {
+	color: white;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
 .info {
 	font-size: 12px;
 }
