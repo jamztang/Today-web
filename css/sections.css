@@ -152,15 +152,14 @@ article .content {
 	letter-spacing: 0.6px;
 	line-height: 22px;
   	padding-top: 33px;
-  	padding-bottom: 33px;
+  	padding-bottom: 20px;
 }
 #foot a {
 	font-size: 16px;
 }
 #mixpanel {
-	right: 20px;
+/*	right: 20px;
 	bottom: 26px;
-	position: relative;
-	float: right;
-	display: none;
+	position: relative;*/
+  	padding-bottom: 33px;
 }
